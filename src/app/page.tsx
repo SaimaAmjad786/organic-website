@@ -7,7 +7,7 @@ import Product from './components/product';
 import AOS from "aos"
 import "aos/dist/aos.css";
 
-function page() {
+function Page() {
   useEffect(()=>{
     AOS.init({
       easing:"ease-out-back",
@@ -30,4 +30,4 @@ function page() {
   )
 }
 
-export default page;
+export default Page;
