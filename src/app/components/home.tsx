@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link"
+import Image from "next/image"
 function Home() {
   return (
     <div id='Home'>
@@ -22,7 +23,7 @@ function Home() {
           </div>
 
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 -mt-[20px]">
-            <img src="./fruit.jpg"
+            <Image src="/fruit.jpg"
               className="object-cover object-center rounded-lg  border-4 border-green-500 hover:scale-105 "
               alt="hero"
               width={350}
